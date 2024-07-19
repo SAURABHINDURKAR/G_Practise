@@ -1,0 +1,28 @@
+GIT
+Git is a distributed version control system commonly used for tracking changes in source code during software development. 
+It allows multiple developers to work on a project simultaneously without overwriting each other's changes.
+
+1. Version Control: Git keeps a history of changes made to files and allows you to revert to previous versions if needed.
+
+2. Distributed System: Each developer has a full copy of the repository, including its history, on their local machine. This means that all operations can be performed locally, providing speed and flexibility.
+
+3. Branching and Merging: Git supports creating branches, which are separate lines of development. This allows developers to work on different features or bug fixes independently. These branches can later be merged back into the main codebase.
+
+4. Commit and Push: Changes are saved in Git through commits, which are snapshots of the project's files at a given time. These commits can be pushed to a remote repository, allowing other team members to access the latest changes.
+
+5. Collaboration: Git enables efficient collaboration among developers, allowing them to work on the same project without interfering with each other's work.
+
+6. Popular Platforms: GitHub, GitLab, and Bitbucket are popular platforms that provide hosting for Git repositories and additional features like issue tracking, project management, and continuous integration.
+
+Basic Git Commands
+git init: Initializes a new Git repository.
+git clone [url]: Clones a remote repository to your local machine.
+git status: Shows the status of changes in your working directory.
+git add [file]: Stages a file for commit.
+git commit -m "[message]": Commits staged changes with a message.
+git push: Pushes committed changes to a remote repository.
+git pull: Fetches and merges changes from a remote repository to your local repository.
+git branch: Lists all branches in the repository.
+git checkout [branch]: Switches to the specified branch.
+git merge [branch]: Merges the specified branch into the current branch.
+
